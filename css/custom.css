@@ -1,0 +1,90 @@
+.constrain {
+    overflow-x: hidden !important;
+}
+
+/* Publications */
+
+.card-fixed {
+    width: 800px;
+}
+
+#imgwrap { 
+    max-height: 150px; 
+    width: 200px; 
+    overflow: hidden; 
+    float: left;
+    margin: 0 1.5em 1em 0;
+    border-radius: 0.35em;
+    position: relative;
+
+}
+
+.img-pub {
+    max-width: 200px;
+    top: 0.25em;
+    border: 0;
+}
+
+
+.social-banner {
+    background-color: #f9f9ff;
+    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.2);
+    width: 100% !important;
+  }
+
+/* Social Media */
+
+.social_links {
+    padding:0;
+    margin: 0;
+    display: block;
+    overflow: hidden;
+    list-style: none;
+    text-align: center;
+    margin: 0 auto;
+}
+.footer_wrapper .social_links{
+    text-align: left;
+    padding-left: 17px;
+}
+.social_links li {
+    display: inline-block;
+    margin-right: 4px;
+    border: 1px solid #285d6b;
+    /* border-radius: 50%; */
+    padding: 0px;
+}
+
+.social_links li a {
+    display: block;
+    width: 46px;
+    height: 46px;
+    text-align: center;
+    line-height: 46px;
+    font-size: 18px;
+    color: #00283a;
+}
+
+.social_links li a:hover, .social_links li a:focus {
+    text-decoration: none;
+    /* border-radius: 80px; */
+    background: #163840;
+    color: #fff;
+}
+
+.twitter a:hover {
+    color: #55acee;
+}
+
+.facebook a:hover {
+    color: #3b5998;
+}
+
+.pinterest a:hover {
+    color: #cb2026;
+}
+
+.gplus a:hover {
+    color: #dd4b39;
+}
+ 
